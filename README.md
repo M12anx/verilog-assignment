@@ -48,8 +48,6 @@ verilog-assignment/
 
 │   ├── counter\_4bit\_down.v
 
-│   └── ripple\_counter.v
-
 │
 
 ├── tb/                 # Testbenches
