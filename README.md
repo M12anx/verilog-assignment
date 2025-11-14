@@ -12,78 +12,6 @@
 
 ---
 
-
-
-## 📁 Project Structure
-
-
-
-```
-
-verilog-assignment/
-
-│
-
-├── src/                # Verilog design modules
-
-│   ├── basic\_gates.v
-
-│   ├── boolean\_expr.v
-
-│   ├── mux2.v
-
-│   ├── mux4.v
-
-│   ├── decoder\_2to4.v
-
-│   ├── priority\_encoder\_4to2.v
-
-│   ├── universal\_adder\_subtractor.v
-
-│   ├── counter\_2bit\_up.v
-
-│   ├── counter\_4bit\_up.v
-
-│   ├── counter\_2bit\_down.v
-
-│   ├── counter\_4bit\_down.v
-
-│
-
-├── tb/                 # Testbenches
-
-│   ├── basic\_gates\_tb.v
-
-│   ├── mux\_tb.v
-
-│   ├── decoder\_tb.v
-
-│   ├── encoder\_tb.v
-
-│   ├── universal\_adder\_subtractor\_tb.v
-
-│   ├── counter\_2bit\_up\_tb.v
-
-│   ├── counter\_4bit\_up\_tb.v
-
-│   ├── counter\_2bit\_down\_tb.v
-
-│   └── counter\_4bit\_down\_tb.v
-
-│
-
-├── screenshots/        # Simulation images
-
-│
-
-├── README.md
-
-└── .gitignore
-
-```
-
-
-
 ---
 
 
@@ -139,6 +67,25 @@ Optimized logic expressions implemented using gates.
 * **4-to-2 Priority Encoder**
 
 * **2-to-4 Decoder**
+
+
+
+### ✔ Flip-Flops
+
+### • SR Latch  
+Basic latch formed using cross-coupled NOR/NAND gates.
+
+### • SR Flip-Flop  
+Clock-controlled version of SR Latch to avoid invalid states.
+
+### • D Flip-Flop  
+Eliminates invalid states by enforcing D → Q transfer on clock edge.
+
+### • JK Flip-Flop  
+Enhanced SR flip-flop with toggling feature when J = K = 1.
+
+### • T Flip-Flop  
+Toggle flip-flop used in counters; toggles output on each clock pulse.
 
 
 
