@@ -1,0 +1,42 @@
+# Vivado temporary build files
+*.jou
+*.log
+*.str
+
+# Vivado project auto-generated folders
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.srcs/
+*.data/
+
+# Vivado database and temp
+*.xsa
+*.pb
+*.ltx
+*.rpt
+*.dcp
+
+# Misc
+*.tmp
+*.temp
+*.vcd
+*.wcfg
+*.xml
+
+# Windows garbage
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# VSCode, JetBrains, etc.
+.vscode/
+.idea/
